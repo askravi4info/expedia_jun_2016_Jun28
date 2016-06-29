@@ -1,0 +1,6 @@
+default: --no-source --color --format pretty --format html --out report.html
+
+smoke: --no-source --color --format pretty --tags @smoke --tags ~@manual --tags ~@wip
+smoke_qa_ff: --no-source --color --format pretty --tags @smoke --tags ~@manual --tags ~@wip Environment['BROWSER'] = 'ff'
+smoke_qa_chrome: --no-source --color --format pretty --tags @smoke --tags ~@manual --tags ~@wip
+smoke_itg_ff: --no-source --color --format pretty --tags @smoke --tags ~@manual --tags ~@wip

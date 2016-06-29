@@ -1,0 +1,27 @@
+request: 3482173
+company: 'chase'
+content:
+    session: 0
+    balance: 4000
+
+
+dep_city_name: 'columbus'
+dep_airport_name: 'Columbus, OH'
+arr_city_name: 'cleveland'
+arr_airport_name: 'cleveland, OH'
+
+
+patch:
+  dep_city_name: 'dayton'
+  dep_airport_name: 'dayton, OH'
+  arr_city_name: 'cleveland'
+  arr_airport_name: 'cleveland, OH'
+
+
+Expedia_Admin:
+  username: 'qaadmin'
+  password: '@@##@##@#'
+
+Expedia_test_user:
+  username: 'qaadmin'
+  password: '@@##@##@#'
