@@ -4,7 +4,7 @@ Feature: Expedia Round Trip Flight Search
     Given user is on Expedia Home page
     And user select the round trip tab under the flight section
 
-  @ravi
+  @ravi @regression
   Scenario: Verify the user gets the correct flight search results
     And user selects Columbus, OH airport for the city columbus from departure field
     And user selects Cleveland, OH airport for the city cleveland from arrival field
