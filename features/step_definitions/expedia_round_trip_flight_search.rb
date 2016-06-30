@@ -69,7 +69,7 @@ Then(/^verify the flight search results are sorted by price$/) do
 
   fail "Actual Prices - #{actual_prices} is Not displayed in Ascending Order - #{sorted_prices} " unless actual_prices == sorted_prices
   # expect(actual_prices).should eq sorted_prices
-
+p 'done'
 end
 
 And(/^user searches for a valid future flight$/) do
