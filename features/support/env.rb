@@ -3,7 +3,7 @@ require 'page-object'
 
 
 
-$password = 'secret'
+$password = 'secrets'
 
 World(PageObject::PageFactory)
 
